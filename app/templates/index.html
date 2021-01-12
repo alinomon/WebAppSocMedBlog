@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>To-do App</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/todo.css')}}">
+</head>
+<body class = "body">
+  <div style = "text-align: center;">
+    <h1>To-do List</h1>
+      <form action="/index" method="POST">
+        {{ form.hidden_tag() }}
+        <h2>Create a to-do list by entering a Title, Date, Description and click the Add button</h2>
+        <fieldset style="position:relative; left:645px; width: 600px; border:thin solid #DADADA;" >
+          <table border="0" align="center" style="text-align:left;">
+            <tr>
+              <td width="140px">
+                  Add a title:
+              </td>
+              <td>
+                  {{ form.text }}
+              </td>
+              <td width="80px" style="text-align:center;">
+                  <input style="width:60px;" type="submit" value = "Add">
+              </td>
+            <tr>
+              <td>
+                  Add a date:
+              </td>
+              <td colspan="=2">
+                {{ form.date }}&nbsp;&nbsp;<em>mm-dd-yy 00:00</em>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                Add a description:
+              </td>
+              <td colspan="=2" >
+                 {{ form.desc(rows='10', cols='40') }}
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+  background-color:  #EFFBFB;
+
+}
+
+mytable{
+  text-align:left;
+  border-style:solid;
+  border-width:thin;
+  border-top: solid;
+  border-left: solid;
+  border-bottom: solid;
+}

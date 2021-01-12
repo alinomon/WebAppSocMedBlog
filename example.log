@@ -1,0 +1,2538 @@
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:32] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:32] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:32] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:32] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:12:59] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/__init__.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:07] "[37mPOST /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:13] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:13] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:13:40] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:14:02] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:15:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:15:29] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:15:30] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:15:44] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:16:03] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:16:03] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:16:03] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:16:03] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:16:03] "[37mGET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:16:03] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:16:03] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/forms.py', reloading
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/models.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:41] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:42] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:52] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:52] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:52] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:52] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:52] "[37mGET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:52] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:17:52] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:37] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:38] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:47] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:47] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:47] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:47] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:47] "[37mGET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:47] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:18:47] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ERROR:root:Error: Directory migrations already exists and is not empty
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:47] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:57] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:57] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:57] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:57] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:57] "[37mGET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:57] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:22:57] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:02] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:04] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:11] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:24:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ERROR:root:Error: Directory migrations already exists and is not empty
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:14] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:14] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:26] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:26] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:26] "[37mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:26] "[37mGET /home?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:26] "[37mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:26] "[37mGET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:26] "[37mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:34:27] "[37mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:35:49] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:35:50] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:35:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:35:55] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:01] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:10] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:10] "[37mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:10] "[37mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:10] "[37mGET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:36:11] "[37mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:07] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:09] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:18] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:24] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:24] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:56] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:37:56] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:<Users 1>
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:06] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:06] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:<Users 1>
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:36] "[37mGET /login HTTP/1.1[0m" 200 -
+DEBUG:root:<Users 1>
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:44:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:<Users 1>
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:46:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:46:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:46:36] "[37mGET /login HTTP/1.1[0m" 200 -
+DEBUG:root:None
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:46:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:46:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:28] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:34] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:34] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:34] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:34] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:34] "[37mGET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:34] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:49:34] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:12] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:19] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:25] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 00:50:34] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:53:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:53:21] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:53:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:53:23] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:53:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 14, in Index
+    return render_template('index.html')
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/index.html", line 10, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:53:29] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 14, in Index
+    return render_template('index.html')
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/index.html", line 10, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:36] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:38] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:39] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 14, in Index
+    return render_template('index.html')
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/index.html", line 10, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:44] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 14, in Index
+    return render_template('index.html')
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/index.html", line 10, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:47] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:49] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:50] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:54:55] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:56:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:56:32] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:56:33] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:56:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 14, in Index
+    return render_template('home.html')
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/index.html", line 10, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:56:40] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:57:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:57:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:57:49] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:57:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 14, in Home
+    return render_template('home.html')
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/home.html", line 10, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:57:55] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:58:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:58:58] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:58:59] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:59:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 15:59:04] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:04:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:04:09] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:04:22] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:04:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:04:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:04:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:04:36] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:02] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:03] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:09] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:28] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:28] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    return render_template('home.html')
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/home.html", line 21, in top-level template code
+    {{ form.title }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:18:37] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:24:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:24:17] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:24:18] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:24:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:24:27] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:32:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:32:07] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:32:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:32:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:32:11] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:33:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:33:25] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:33:26] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:33:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:33:30] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:11] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:13] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:13] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:14] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:14] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:16] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:17] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:21] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:31] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:32] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:36:35] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:47:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:47:30] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:47:31] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:47:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:47:35] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:03] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:04] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:10] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /add [POST]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 24, in Add
+    db.session.commit()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2536, in flush
+    self._flush(objects)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2678, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2638, in _flush
+    flush_context.execute()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1136, in _emit_insert_statements
+    statement, params
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: INSERT INTO blog_posts (title, "blogBody") VALUES (?, ?)]
+[parameters: ('TEST', 'ITS ALIVE!!!')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:17] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:43] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:48] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:55] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:49:56] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:54:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:54:23] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:54:24] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:54:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody" 
+FROM blog_posts]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:54:29] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:29] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:34] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:36] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:37] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:37] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:37] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:37] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:57:37] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:59:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:59:22] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:59:22] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:59:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: blog_posts
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 15, in Home
+    posts = models.BlogPosts.query.filter_by(complete=False).all()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: blog_posts
+[SQL: SELECT blog_posts.id AS blog_posts_id, blog_posts.title AS blog_posts_title, blog_posts."blogBody" AS "blog_posts_blogBody", blog_posts.complete AS blog_posts_complete 
+FROM blog_posts 
+WHERE blog_posts.complete = 0]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 16:59:26] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 17:07:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 17:07:36] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 17:07:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:24] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:25] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[37mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[37mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[37mGET /home?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[37mGET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[37mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:51:30] "[37mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ERROR:root:Error: Directory migrations already exists and is not empty
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:54:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:54:05] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:54:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:54:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:54:10] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:54:24] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:54:26] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:58:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 22:58:03] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:00:53] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:01:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:01:01] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:01:44] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:14] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:16] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:18] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:20] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:21] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:25] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:03:27] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:11] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:12] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:42] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:47] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:05:52] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:08:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:08:27] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:08:28] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:08:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:08:31] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:08:35] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:12:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:12:22] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:13:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:13:34] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:13:35] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:13:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:13:38] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:13:42] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:19:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:19:44] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:19:45] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:19:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:19:48] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:19:51] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:20:29] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:24:20] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:27:31] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:24] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:24] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:33] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:49] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:34:56] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:35:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:35:08] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:35:13] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:40:17] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:40:20] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:41:20] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:44:48] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:44:48] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:45:01] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:45:01] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:53:21] "[32mPOST /add HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:53:21] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:53:42] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:56:42] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:56:52] "[37mPOST /add HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:56:54] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:57:37] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:57:42] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:57:45] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:58:36] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:58:37] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:58:38] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:58:40] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:58:40] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:58:40] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:58:41] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:59:45] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:59:46] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:59:47] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:59:48] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 23:59:48] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:04:56] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:04:59] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:05:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:05:12] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:05:14] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:05:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:05:18] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:05:25] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:06:43] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:06:44] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:06:46] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:07:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:07:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:07:27] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:07:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:07:34] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:07:39] "[37mPOST /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:08:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:08:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:08:40] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:08:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:08:44] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:08:53] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:08:53] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:10:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:10:08] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:10:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:10:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:10:14] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:10:18] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 00:10:18] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:40] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:45] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:58] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:54:58] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:56:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 11:56:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:00:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:00:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:00:34] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:07:10] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:29:02] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:31:08] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:31:12] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:31:13] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:31:13] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:31:30] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:31:58] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:32:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:32:02] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:32:03] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:32:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:32:06] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:32:46] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:32:47] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:05] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:05] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:21] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:23] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:27] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 48, in Friends
+    users = models.Users.query.filter_by(id=int(id)).all()
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'builtin_function_or_method'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:28] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:34:34] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:36:15] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 48, in Friends
+    users = models.Users.query.filter_by(id=int(id)).all()
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'builtin_function_or_method'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:36:17] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:37:15] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:37:15] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 48, in Friends
+    users = models.Users.query.filter_by(id=int(id)).all()
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'builtin_function_or_method'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:37:16] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:40:40] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:40:40] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 48, in Friends
+    temp = int(id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'builtin_function_or_method'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:40:41] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:40:44] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:40:50] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:40:50] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 48, in Friends
+    temp = int(id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'builtin_function_or_method'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:40:52] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:48:40] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:48:40] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:48:41] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:48:42] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 48, in Friends
+    users = models.Users.query.all()
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'builtin_function_or_method'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:48:43] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:49:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:49:49] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:49:49] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:49:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:49:55] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: Friends() missing 1 required positional argument: 'id'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:49:59] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:27] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:27] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:28] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:28] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: Friends() missing 1 required positional argument: 'id'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:29] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: Friends() missing 1 required positional argument: 'id'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:51] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:52] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:52] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:54] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:54] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:55] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:55] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: Friends() missing 1 required positional argument: 'id'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:50:58] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:18] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:20] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:23] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:25] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:51] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:51:52] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:52:05] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:52:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:52:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:52:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:52:16] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 12:52:18] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:07:05] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:07:07] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:root:Error: Directory migrations already exists and is not empty
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:00] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:01] "[37mGET /login HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 30, in LogIn
+    flask.session['username'] = form.username.data
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:06] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 30, in LogIn
+    #flask.session['username'] = form.username.data
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:42] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:43] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 30, in LogIn
+    #flask.session['username'] = form.username.data
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:47] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:50] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:51] "[37mGET /login HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 30, in LogIn
+    #flask.session['username'] = form.username.data
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:21:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:22:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:22:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:22:40] "[37mGET /login HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 30, in LogIn
+    Flask.session['username'] = form.username.data
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:22:43] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:23:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:23:07] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:23:08] "[37mGET /login HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /login [POST]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 30, in LogIn
+    Flask.session['username'] = form.username.data
+AttributeError: type object 'Flask' has no attribute 'session'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:23:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:24:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:24:06] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:24:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:24:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:24:11] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:24:18] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:24:23] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:29:01] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:29:02] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:29:05] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:29:40] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:29:40] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:35:15] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:35:16] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:36:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:36:40] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:36:41] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:36:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:36:44] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:36:45] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:36:47] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:37:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:37:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:37:40] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:39:12] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:39:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:39:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:39:48] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:39:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:39:53] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:39:54] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 56, in AddFriend
+    result = models.Friends(username1 = flask.session['username'], username2 = username)
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:40:02] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:04] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:04] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:06] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 56, in AddFriend
+    result = models.Friends(username1 = session['username'], username2 = username)
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:08] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:14] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:15] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:19] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:21] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 56, in AddFriend
+    result = models.Friends(username1 = session['username'], username2 = username)
+NameError: name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:22] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:55] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:41:56] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:42:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:42:00] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:42:01] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 61, in AddFriend
+    return render_template('friends.html', users=users)
+NameError: name 'users' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:42:02] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+DEBUG:root:Friends
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 61, in AddFriend
+    logging.debug("Friends")
+NameError: name 'users' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:42:58] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:42:59] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:42:59] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:00] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 61, in AddFriend
+    logging.debug("Friends")
+NameError: name 'users' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:01] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:16] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:16] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:22] "[37mPOST /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:27] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:28] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:43:31] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:29] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:31] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:31] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:31] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:37] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:37] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:47] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:48] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:53] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:54] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:45:56] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:47:30] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:47:30] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:47:33] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:31] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:32] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:36] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:37] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:42] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:54] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:54] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:56] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:58] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:52:58] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:53:03] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:53:22] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:53:27] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:53:31] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:53:38] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:53:39] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:54:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:54:33] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:54:37] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:54:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:54:42] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:54:59] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:54:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:55:00] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:55:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:55:06] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:55:08] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:55:13] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:55:20] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 13:55:25] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:02:46] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:03:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:03:00] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:03:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:03:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:03:08] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:03:10] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:09:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:09:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:09:49] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:09:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:09:54] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:09:55] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:10:02] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 14:11:37] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:34:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:34:58] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:34:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:00] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:07] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:09] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:27] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:28] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:35] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:37] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:37:43] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:39:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:39:37] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:39:38] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:39:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:39:43] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 50, in Friends
+    friends = CurrentFriends()
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 68, in CurrentFriends
+    if friend.username1 == session['username'] and friendList.contains(friend) == False:
+AttributeError: 'list' object has no attribute 'contains'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:39:44] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 50, in Friends
+    friends = CurrentFriends()
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 68, in CurrentFriends
+    if friend.username1 == session['username'] and friendList.contains(friend) == False:
+AttributeError: 'list' object has no attribute 'contains'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:39:47] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:43:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:43:02] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:43:03] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:43:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:43:08] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 50, in Friends
+    friends = CurrentFriends()
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 68, in CurrentFriends
+    if friend.username1 == session['username'] and not any(friend in friendList):
+TypeError: 'bool' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:43:10] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:45:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:45:32] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:45:33] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:45:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:45:37] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 50, in Friends
+    friends = CurrentFriends()
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 68, in CurrentFriends
+    if friend.username1 == session['username'] and not any(str(friend) in friendList):
+TypeError: 'bool' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:45:38] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:49:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:49:25] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:49:26] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:49:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:49:31] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:49:32] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:51:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:51:09] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:51:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:51:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:51:15] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:51:17] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:51:26] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:52:12] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:56:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:56:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:56:49] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:56:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:56:56] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:56:57] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /delete/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/base.py", line 406, in _entity_descriptor
+    return getattr(entity, key)
+AttributeError: type object 'Friends' has no attribute 'username'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 78, in delete
+    friend = models.Friends.query.filter_by(username = username).first()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 1923, in filter_by
+    for key, value in kwargs.items()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 1923, in <listcomp>
+    for key, value in kwargs.items()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/base.py", line 412, in _entity_descriptor
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.exc.InvalidRequestError: Entity '<class 'app.models.Friends'>' has no property 'username'
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:57:00] "[35m[1mGET /delete/test HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:58:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:58:22] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:58:23] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:58:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:58:27] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:58:28] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /delete/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 78, in delete
+    friend = models.Friends.query.filter_by(username = username2).first()
+NameError: name 'username2' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:58:32] "[35m[1mGET /delete/test HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:10] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:15] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:16] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:21] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:21] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:29] "[32mGET /delete/alex HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2021 23:59:29] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:06] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:08] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:08] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:16] "[32mGET /delete/alex HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:16] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:24] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:24] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:31] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:33] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:33] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:35] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:35] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:36] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:36] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:39] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:39] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:40] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:40] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:40] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:40] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:41] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:41] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:41] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:41] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:42] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:42] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:42] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:42] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:43] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:43] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:43] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:43] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:44] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:44] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:44] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:44] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:46] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:46] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:49] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:49] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:57] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:57] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:59] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:02:59] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:02] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:02] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:04] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:04] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:05] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:05] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:07] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:07] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:08] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:08] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:10] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:10] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:11] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:11] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:13] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:13] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:14] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:14] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:15] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:15] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:15] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:15] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:17] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:18] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:18] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:20] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:20] "[32mGET /delete/alex HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:20] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:22] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:22] "[32mGET /delete/alex HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:22] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:27] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:28] "[32mGET /delete/alex HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:28] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:29] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:29] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:30] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:31] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:31] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:32] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:32] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:33] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:33] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:33] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:35] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:35] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:35] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:36] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:36] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:36] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:43] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:49] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:50] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:56] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:57] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:03:58] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:02] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:04] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:08] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:09] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:12] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:12] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:17] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:17] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:18] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:04:18] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:20:17] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:20:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:20:21] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:20:22] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:20:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:20:26] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:20:27] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:44] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:45] "[32mGET /delete/test HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:45] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:46] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:47] "[32mGET /delete/Josh HTTP/1.1[0m" 302 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2021 00:24:47] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2021 20:37:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2021 20:37:01] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2021 20:37:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
