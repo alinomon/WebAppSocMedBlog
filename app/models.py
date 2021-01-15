@@ -8,6 +8,7 @@ class Users(db.Model):
 
 class BlogPosts(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    owner = db.Column(db.String(200))
     title = db.Column(db.String(100))
     blogBody = db.Column(db.String(500))
     complete = db.Column(db.Boolean)

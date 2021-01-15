@@ -12,9 +12,10 @@ def Landing():
 @app.route('/home', methods=['POST', 'GET'])
 def Home():
     form = BlogPostForm()
-    posts = models.BlogPosts.query.filter_by(complete=False).all()
+    user = session['username']
+    posts = UserPosts(user)
     if request.method=="POST" and form.validate_on_submit():
-        blog = models.BlogPosts(title=form.title.data, blogBody=form.blogBody.data, complete=False)
+        blog = models.BlogPosts(owner=user, title=form.title.data, blogBody=form.blogBody.data, complete=False)
         db.session.add(blog)
         db.session.commit()
         return redirect(url_for('Home'))
@@ -48,8 +49,17 @@ def Register():
 def Friends():
     users = models.Users.query.all()
     friends = CurrentFriends()
+    usersFinal = []
+    for user in users:
+        foundUser = False
+        if user.username != session['username']:
+            for friend in friends:
+                if user.username == friend.username2:
+                    foundUser = True
+            if foundUser == False:
+                usersFinal.append(user)
     logging.debug("Friends")
-    return render_template('friends.html', users=users, friends = friends)
+    return render_template('friends.html', users=usersFinal, friends = friends)
 
 @app.route('/addfriend/<username>', methods=['POST', 'GET'])
 def AddFriend(username):
@@ -57,19 +67,25 @@ def AddFriend(username):
     users = models.Users.query.all()
     db.session.add(result)
     db.session.commit()
-    logging.debug("Friends")
     friends = CurrentFriends()
-    return render_template('friends.html', users=users, friends = friends)
+    usersFinal = []
+    for user in users:
+        foundUser = False
+        if user.username != session['username']:
+            for friend in friends:
+                if user.username == friend.username2:
+                    foundUser = True
+            if foundUser == False:
+                usersFinal.append(user)
+    logging.debug("Friends")
+    return render_template('friends.html', users=usersFinal, friends = friends)
 
 def CurrentFriends():
     friends = models.Friends.query.all()
     friendList = []
     for friend in friends:
-        if not friendList:
+        if friend.username2 != session['username'] and friend not in friendList:
             friendList.append(friend)
-        if friend.username1 == session['username'] and friend not in friendList:
-            friendList.append(friend)
-    print(friendList)
     logging.debug("Friends")
     return friendList
 
@@ -77,6 +93,27 @@ def CurrentFriends():
 def delete(username):
     friend = models.Friends.query.filter_by(username2 = username).first()
     db.session.delete(friend)
+    friendList = CurrentFriends()
     db.session.commit()
+    users = models.Users.query.all()
+    usersFinal = []
+    for user in users:
+        foundUser = False
+        if user.username != session['username']:
+            for friend in friendList:
+                if user.username == friend.username2:
+                    foundUser = True
+            if foundUser == False:
+                usersFinal.append(user)
+    return render_template('friends.html', users=usersFinal, friends=friendList)
 
-    return render_template('friends.html')
+def UserPosts(username):
+    posts = models.BlogPosts.query.filter_by(owner = username)
+    print(posts)
+
+    return posts
+
+@app.route('/profile/<username>', methods=['GET'])
+def Profile(username):
+    posts = UserPosts(username)
+    return render_template('profile.html', posts=posts, username=username)

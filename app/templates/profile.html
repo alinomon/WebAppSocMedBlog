@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/todo.css')}}">
+</head>
+<body class = "body">
+  <div style = "text-align: center;">
+    <div>
+      <h1>{{ username }}'s profile</h1>
+      <a href="{{ url_for('Friends') }}"><button type="button">Friends</button></a>
+    </div>
+
+    <div style = "text-align: center;">
+        <h2>{{ username }}'s posts</h2>
+        <ul>
+          {% for userposts in posts %}
+          <fieldset style="position:relative; left:605px; width: 600px; border:thin solid #DADADA;" >
+            <table border="0" align="center" style="text-align:left;">
+              <tr>
+                <td width="140px">
+                    Title:
+                </td>
+                <td width="300px">
+                    {{ userposts.title }}
+                </td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  Description:
+                </td>
+                <td colspan="2" >
+                   {{ userposts.blogBody}}
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+          <br>
+          {% endfor %}
+        </ul>
+        <br>
+      </div>
+</body>
+</html>

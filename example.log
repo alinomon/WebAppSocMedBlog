@@ -2536,3 +2536,1502 @@ INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [12/Jan/2021 20:37:00] "[37mGET / HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [12/Jan/2021 20:37:01] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [12/Jan/2021 20:37:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:04] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:06] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:14] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:18] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:20] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:22] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:29] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:33] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:06:34] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /delete/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2050, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 79, in delete
+    db.session.delete(friend)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2054, in delete
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:11:57] "[35m[1mGET /delete/test HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /delete/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2050, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 79, in delete
+    db.session.delete(friend)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2054, in delete
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:11:58] "[35m[1mGET /delete/test HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:00] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:05] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:07] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:09] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:12:10] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /delete/Josh [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2050, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 79, in delete
+    db.session.delete(friend)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2054, in delete
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:04] "[35m[1mGET /delete/Josh HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:06] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:07] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:11] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:12] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:14] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:15] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:18] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:19] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:21] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:21] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:22] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:41] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:47] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:48] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:13:50] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:14:39] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:14:40] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:14:42] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:14:44] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:14:45] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /delete/Josh [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2050, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 79, in delete
+    test = CurrentFriends()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2054, in delete
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:18] "[35m[1mGET /delete/Josh HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:20] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:21] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:25] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:26] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:27] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:15:35] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:27] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:36] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:37] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:42] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:43] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:45] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:16:46] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:13] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:13] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:15] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:16] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:17] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:18] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:24] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:42] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:42] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:45] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:48] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:17:50] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:19:50] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:19:52] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:19:54] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:19:55] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:19:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:19:58] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:19:58] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:05] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:06] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:09] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:10] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:42] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:47] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:48] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:51] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:54] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:54] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:55] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:56] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:20:59] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:21:00] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:21:01] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:21:03] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:21:05] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:21:06] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:21:07] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:43] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:48] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:49] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:50] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+ERROR:app:Exception on /delete/Josh [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 81, in delete
+    print(test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:25:55] "[35m[1mGET /delete/Josh HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:27:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:27:59] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:28:00] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:28:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:28:08] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:28:09] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /addfriend/Josh [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 60, in AddFriend
+    if user.username not in friendList:
+NameError: name 'friendList' is not defined
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:28:12] "[35m[1mGET /addfriend/Josh HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:28:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:28:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:30:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:30:14] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:30:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:30:15] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:30:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:30:20] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 52, in Friends
+    if user[2] not in friendList:
+TypeError: 'Users' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:30:21] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:11] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:12] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:16] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 52, in Friends
+    if user[2] not in friendList:
+TypeError: 'Users' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:17] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:37] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:38] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:42] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 52, in Friends
+    if user[2] not in friendList:
+TypeError: 'Users' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:31:43] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:32:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:32:37] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:32:38] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:32:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:32:43] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 53, in Friends
+    if user[2] not in friendList:
+TypeError: 'Users' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:32:44] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:34:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:34:08] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:34:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:34:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:34:15] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 53, in Friends
+    if user.username not in friendList:
+NameError: name 'friendList' is not defined
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:34:17] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:35:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:35:23] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:35:24] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:35:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:35:27] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:35:28] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 65, in AddFriend
+    if user[2] not in friendList:
+TypeError: 'Users' object does not support indexing
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:35:32] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:36:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:36:13] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:36:14] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:36:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:36:18] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:36:19] "[37mGET /friends HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /addfriend/test [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 65, in AddFriend
+    if user.username not in friendList:
+NameError: name 'friendList' is not defined
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:36:21] "[35m[1mGET /addfriend/test HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:11] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:15] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:16] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:17] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:20] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:24] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:27] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:30] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:32] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:34] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:35] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:37] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:38] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:41] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:44] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:50] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:37:52] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:15] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:16] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:21] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:22] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:24] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:26] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:41] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:46] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:48] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:41:50] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:46:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:46:45] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:46:46] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:46:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:46:50] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:46:51] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:05] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:14] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:15] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:24] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:26] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:27] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:34] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:37] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:38] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:39] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:51] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:52] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:53] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:55] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:57] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:47:57] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:48:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:48:54] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:48:55] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:00] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:01] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:03] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:05] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:06] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+ERROR:app:Exception on /delete/alex [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 103, in delete
+    for friend in friends:
+NameError: name 'friends' is not defined
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:08] "[35m[1mGET /delete/alex HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:49] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:54] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:55] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:49:59] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:01] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:03] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:03] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:07] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:08] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:09] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:11] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:14] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:15] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:16] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:18] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:19] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:22] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:25] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:30] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:35] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:35] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:41] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:43] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:44] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:45] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:46] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:50:47] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:51:23] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:51:35] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:51:41] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:51:42] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:32] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:33] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:37] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:40] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:42] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:43] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:45] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:46] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:47] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:53:48] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:55:39] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:55:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:55:50] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:55:51] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:55:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:55:56] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:05] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:10] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:12] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:22] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:28] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:36] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:56:46] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:40] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:40] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:44] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:46] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:50] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:53] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:57:55] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:07] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:14] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:21] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:23] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:57] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:58:58] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:15] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:25] "[37mPOST /register HTTP/1.1[0m" 200 -
+DEBUG:root:Register
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:36] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:37] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:44] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 16:59:46] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:23] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:24] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:30] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:34] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:35] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:36] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:42] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:43] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:58] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:01:59] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:07] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:09] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:11] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:34] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:35] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:41] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:46] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:02:48] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:03:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:03:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:03:48] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:03:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:03:54] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:04:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:04:03] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:04:05] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:04:20] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:04:22] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:04:24] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:04:26] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:08:15] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:25] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:27] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:34] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:35] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:41] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:42] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:47] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:09:58] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:10:09] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:10:10] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:10:13] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:10:14] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:08] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:08] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:13] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:15] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:27] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:49] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:11:56] "[37mGET /delete/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:07] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:09] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:09] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:09] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:11] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:12] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:18] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:19] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:23] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:12:24] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:14:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:14:58] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:15:00] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:15:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:15:06] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:15:07] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:38] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:39] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:44] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:45] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:54] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:16:58] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:17:00] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:17:02] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:17:05] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:22:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:22:45] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:22:46] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:22:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:22:53] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:22:54] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:01] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:02] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:08] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:13] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:14] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:27] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:29] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:29] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:29] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:29] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:31] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:32] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:32] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:33] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:33] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:34] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:35] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:36] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:37] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:42] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:42] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:23:55] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:24:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:24:02] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:24:03] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:24:14] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:24:19] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:24:27] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:03] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:04] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:09] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:10] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:15] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:16] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:20] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:21] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:27] "[37mGET /addfriend/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:40] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:41] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:43] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:44] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:46] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:50] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:51] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:26:54] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:00] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:11] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:12] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:16] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:17] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:24] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:25] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:29] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:27:30] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:08] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:16] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:21] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:25] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:28] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:29] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:30] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:32] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:32] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:36] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:37] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:38] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:38] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:39] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:45] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:49] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:51] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:53] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /delete/bob12345 [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2050, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 94, in delete
+    db.session.delete(friend)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2054, in delete
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:28:58] "[35m[1mGET /delete/bob12345 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /delete/bob12345 [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2050, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 94, in delete
+    db.session.delete(friend)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2054, in delete
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:29:02] "[35m[1mGET /delete/bob12345 HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /delete/bob12345 [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2050, in delete
+    state = attributes.instance_state(instance)
+AttributeError: 'NoneType' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 94, in delete
+    db.session.delete(friend)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2054, in delete
+    replace_context=err,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'builtins.NoneType' is not mapped
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:29:03] "[35m[1mGET /delete/bob12345 HTTP/1.1[0m" 500 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:29:04] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:29:06] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:30:05] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:root:Error: Directory migrations already exists and is not empty
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:37:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:37:25] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:37:26] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:37:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:37:31] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:37:40] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:37:40] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:root:Error: Directory migrations already exists and is not empty
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:23] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:24] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:30] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:33] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:49] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:41:49] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:42:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:42:54] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:42:55] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:43:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 22, in Home
+    return render_template('home.html', form=form, posts=posts)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/home.html", line 49, in top-level template code
+    {% for blog in posts %}
+TypeError: 'NoneType' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:43:00] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:43:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:43:50] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:43:51] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:43:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:43:58] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:03] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:03] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:07] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:14] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:14] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:18] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:19] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:23] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:44:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:45:00] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:05] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:05] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:11] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+ERROR:app:Exception on /friends [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 62, in Friends
+    return render_template('friends.html', users=usersFinal, friends = friends)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/friends.html", line 54, in top-level template code
+    <a href="{{ url_for('profile', username=user.username2) }}"><button type="button">View Profile</button></a>
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/helpers.py", line 358, in url_for
+    endpoint, values, method=method, force_external=external
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'profile' with values ['username']. Did you mean 'Profile' instead?
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:14] "[35m[1mGET /friends HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:50] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:51] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:56] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:55:57] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:01] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:06] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:07] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:18] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:18] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:24] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:25] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:29] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:33] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 17:56:34] "[37mGET /profile/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [13/Jan/2021 18:00:44] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:28] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:35] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:48] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:49] "[37mGET /addfriend/Josh HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:51] "[37mGET /profile/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:54] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:55] "[37mGET /profile/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:56] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:42:58] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:45:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:45:53] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:47:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:47:12] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:47:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:47:15] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:47:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:47:24] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:48:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:48:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:49:24] "[37mGET /register HTTP/1.1[0m" 200 -
