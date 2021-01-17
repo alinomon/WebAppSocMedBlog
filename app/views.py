@@ -107,6 +107,13 @@ def delete(username):
                 usersFinal.append(user)
     return render_template('friends.html', users=usersFinal, friends=friendList)
 
+@app.route('/deletepost/<id>', methods=['POST', 'GET'])
+def deletepost(id):
+    post = models.BlogPosts.query.filter_by(id=int(id)).first()
+    db.session.delete(post)
+    db.session.commit()
+    return redirect(url_for('Home'))
+
 def UserPosts(username):
     posts = models.BlogPosts.query.filter_by(owner = username)
     print(posts)

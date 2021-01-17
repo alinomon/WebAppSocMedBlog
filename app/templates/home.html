@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <head>
   <title>Home</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/todo.css')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/blog.css')}}">
 </head>
 <body class = "body">
   <div style = "text-align: center;">
     <div>
-      <h1>Home</h1>
+      <span class="generaltitle">My Wall Space</span>
+    </div>
+    <div style="position: relative; top:-5px; left: 235px;">
       <a href="{{ url_for('Friends') }}"><button type="button">Friends</button></a>
     </div>
-
     <form action="/home" method="POST">
       {{ form.hidden_tag() }}
-        <fieldset style="position:relative; left:645px; width: 600px; border:thin solid #DADADA;" >
-
-          <table border="1" align="center" style="text-align:left;">
+        <fieldset style="position:relative; left:670px; width: 520px; border:thin solid #DADADA;" >
+          <table border="0" align="center" style="text-align:left;" class="bodyforms">
             <tr>
-              <td width="140px" colspan="3" >
-                Create a Blog Post
+              <td>
+              </td>
+              <td style="position:relative; left:-20px; text-align: center;" width="140px">
+                Add a post to your wall!
+              </td>
+              <td>
               </td>
             </tr>
             <tr>
@@ -25,10 +29,10 @@
                   Title:
               </td>
               <td>
-                  {{ form.title }}
+                  {{ form.title(size=40) }}
               </td>
-              <td width="80px" style="text-align:center;">
-                  <input style="width:60px;" type="submit" value = "Add">
+              <td width="80px" style="text-align:left;">
+                  <input style="width:60px;" type="submit" value = "Post">
               </td>
             </tr>
               <tr>
@@ -43,22 +47,26 @@
         </fieldset>
     </form>
     </div>
+    <br>
     <div style = "text-align: center;">
-        <h2>My Posts</h2>
+        <span class="generalsubtitle">My Posts</span>
         <ul>
           {% for blog in posts %}
-          <fieldset style="position:relative; left:605px; width: 600px; border:thin solid #DADADA;" >
+          <fieldset style="position:relative; left:630px; width: 520px; border:thin solid #DADADA;" >
             <table border="0" align="center" style="text-align:left;">
               <tr>
-                <td width="140px">
+                <td width="140px" class="bodyforms">
                     Title:
                 </td>
-                <td width="300px">
+                <td width="340px">
                     {{ blog.title }}
+                </td>
+                <td width="90px" style="text-align:center;">
+                   <a href="{{ url_for('deletepost', id=blog.id) }}"><button type="button">Delete</button></a>
                 </td>
               </tr>
               <tr>
-                <td valign="top">
+                <td valign="top" class="bodyforms">
                   Description:
                 </td>
                 <td colspan="2" >

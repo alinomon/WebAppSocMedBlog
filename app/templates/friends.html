@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <head>
   <title>Friends</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/todo.css')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/blog.css')}}">
 </head>
 <body class = "body">
   <div style = "text-align: center;">
     <div>
-      <h1>Friends List</h1>
-      <a href="{{ url_for('Home') }}"><button type="button">Home</button></a>
+      <span class="generaltitle">Friends List</span>
+      <br>
+      <br>
+      <a href="{{ url_for('Home') }}"><button type="button" style="width:60px;">Home</button></a>
+      <br>
+      <br>
     </div>
   </div>
     <div style = "text-align: center;">
-        <h2>Accounts to follow</h2>
+        <span class="generalsubtitle">Accounts to follow</span>
         <ul>
           {% for friends in users %}
           <fieldset style="position:relative; left:605px; width: 600px; border:thin solid #DADADA;" >
             <table border="0" align="center" style="text-align:left;">
               <tr>
-                <td width="140px">
+                <td width="140px" class="bodyforms">
                     Username:
                 </td>
                 <td width="300px">
@@ -35,13 +39,13 @@
         <br>
       </div>
       <div style = "text-align: center;">
-          <h2>Friends</h2>
+          <span class="generalsubtitle">Friends</span>
           <ul>
             {% for user in friends %}
             <fieldset style="position:relative; left:605px; width: 600px; border:thin solid #DADADA;" >
               <table border="0" align="center" style="text-align:left;">
                 <tr>
-                  <td width="140px">
+                  <td width="140px" class="bodyforms">
                       Username:
                   </td>
                   <td width="300px">

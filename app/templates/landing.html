@@ -6,16 +6,26 @@
 <body class = "body">
   <div style = "text-align: center;">
     <h1>Blog</h1>
-        <fieldset style="position:relative; left:645px; width: 600px; border:thin solid #DADADA;" >
+        <fieldset style="position:relative; height:80px; left:550px; width: 800px; border:thin solid #DADADA;" >
           <table border="0" align="center" style="text-align:left;">
             <tr>
-              <td width="140px">
-                  <a href="{{ url_for('LogIn') }}"><button type="button">Login</button></a>
+              <td colspan="4">
+                Welcome to your blog app. Please create an account by clicking the Register button or sign in by clicking the Login button.
               </td>
             </tr>
             <tr>
+              <td colspan="4">&nbsp;</td>
+            </tr>
+            <tr style="position:relative; top:20px;">
               <td>
-                  <a href="{{ url_for('Register') }}"><button type="button">Register</button></a>
+              </td>
+              <td width="140px" style="text-align:center;">
+                  <a href="{{ url_for('LogIn') }}"><button style="width:100px;" type="button">Login</button></a>
+              </td>
+              <td width="140px" style="text-align:center;">
+                  <a href="{{ url_for('Register') }}"><button style="width:100px;" type="button">Register</button></a>
+              </td>
+              <td>
               </td>
             </tr>
           </table>

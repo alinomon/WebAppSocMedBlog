@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <head>
   <title>Blog Log In</title>
+    <script type="text/javascript">
+      <!--
+          function placeFocus() {
+                      document.getElementById("txtHidData").value = screen.width + "x" + screen.height;
+                      if (document.forms.length > 0) {
+                          var field = document.forms[0];
+                          for (i = 0; i < field.length; i++) {
+                              if ((field.elements[i].type == "text") || (field.elements[i].type == "textarea") || (field.elements[i].type.toString().charAt(0) == "s")) {
+                                  document.forms[0].elements[i].focus();
+                                  break;
+                              }
+                          }
+                      }
+          }
+        //  End -->
+    </script>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/todo.css')}}">
 </head>
-<body class = "body">
+<body class = "body" onload="placeFocus();">
   <div style = "text-align: center;">
     <h1>Log In</h1>
       <form action="/login" method="POST">
         {{ form.hidden_tag() }}
-        <fieldset style="position:relative; left:645px; width: 600px; border:thin solid #DADADA;" >
+        <fieldset style="position:relative; left:720px; width: 400px; border:thin solid #DADADA;" >
           <table border="0" align="center" style="text-align:left;">
             <tr>
-              <td width="140px">
+              <td width="100px">
                   Username:
               </td>
               <td>
                   {{ form.username }}
               </td>
               <td width="80px" style="text-align:center;">
-                  <input style="width:60px;" type="submit" value = "Log in">
+                  <input type="hidden" id="txtHidData" />
+                  <input style="width:60px;" type="submit" value = "Log in" />
               </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td style="position: relative; top:-5px; text-align:center;">
+                <span style="font-size: 12px; color: grey;">(minimum 4 characters)</span>
+              </td>
+              <td>
+              </td>
+            </tr>
             <tr>
               <td>
                   Password:
               </td>
-              <td colspan="=2">
+              <td>
                 {{ form.password }}&nbsp;&nbsp;
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td style="position: relative; top:-5px; text-align:center;">
+                <span style="font-size: 12px; color: grey;">(minimum 8 characters)</span>
+              </td>
+              <td>
               </td>
             </tr>
           </table>

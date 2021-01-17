@@ -4035,3 +4035,642 @@ INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:48:26] "[37mGET / HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:48:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 18:49:24] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:21:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:21:05] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:21:21] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:21:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:21:29] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:21:52] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:21:52] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:05] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:15] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:17] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:30] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:37] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:39] "[37mGET /profile/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:44] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:22:46] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:23:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:23:47] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:33:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:33:51] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:35:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:35:42] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:37:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:37:49] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:38:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:38:35] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:42:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:42:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:42:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:42:50] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:44:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:44:18] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:45:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:45:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:46:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:46:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:47:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:47:41] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:50:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:50:12] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:51:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:51:48] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:52:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:52:23] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:54:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:54:22] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:07] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:23] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:29] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:55:47] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:56:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:56:14] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:56:28] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:59:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:59:02] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 19:59:04] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:00:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:00:41] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:00:44] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:05:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:05:47] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:05:48] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:09:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:09:24] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:09:25] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:10:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:10:33] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:10:35] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:11:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:11:45] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:11:46] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:12:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:12:23] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:12:24] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:13:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:13:28] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:13:30] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:15:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:15:08] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:15:10] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:15:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:15:32] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:15:33] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:16:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:16:58] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:16:59] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:17:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:17:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:17:40] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:18:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:18:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:18:40] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:19:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:19:28] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:19:30] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:19:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:19:57] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:19:58] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:22:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:22:09] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:22:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:22:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:22:33] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:22:34] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:24:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:24:01] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:24:02] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:24:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:24:32] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:24:32] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:13] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:14] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:18] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:25] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:28] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:25:37] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:28:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:28:44] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:28:45] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:28:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:28:51] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:29:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:29:49] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:29:50] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:29:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:29:53] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:30:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:30:47] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:30:48] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:30:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:30:52] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:09] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:09] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:13] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:33] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:34] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:32:38] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:00] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:05] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:30] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:30] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:33:44] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:36:40] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:37:11] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:37:12] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:37:15] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:37:16] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:37:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:37:45] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:37:45] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:38:51] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:38:51] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:39:17] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:39:17] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:39:19] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:39:20] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:39:31] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:39:52] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:42:03] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:43:18] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:43:41] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:44:01] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:44:29] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:46:40] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:47:02] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:47:33] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:47:48] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:48:13] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:48:38] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:49:09] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:50:29] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:51:15] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:24] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:25] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:27] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:32] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:35] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:52:35] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:53:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:53:26] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:53:27] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:53:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+ERROR:app:Exception on /home [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 14, in Home
+    form = BlogPostForm()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/wtforms/form.py", line 208, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask_wtf/form.py", line 157, in __init__
+    super(Form, self).__init__(*args, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask_wtf/form.py", line 87, in __init__
+    super(FlaskForm, self).__init__(formdata=formdata, **kwargs)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/wtforms/form.py", line 268, in __init__
+    super(Form, self).__init__(self._unbound_fields, meta=meta_obj, prefix=prefix)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/wtforms/form.py", line 51, in __init__
+    field = meta.bind_field(self, unbound_field, options)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/wtforms/meta.py", line 27, in bind_field
+    return unbound_field.bind(form=form, **options)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/wtforms/fields/core.py", line 376, in bind
+    return self.field_class(*self.args, **kw)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/wtforms/fields/simple.py", line 20, in __init__
+    super(TextField, self).__init__(*args, **kw)
+TypeError: __init__() got an unexpected keyword argument 'width'
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:53:30] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:55:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:55:14] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:55:15] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:55:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:55:18] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:55:41] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:55:57] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:56:30] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:57:23] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:58:23] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:58:41] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2021 20:58:52] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:00:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:00:17] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:00:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:00:20] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:02:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:02:10] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:02:18] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:03:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:03:58] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:04:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:04:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:04:12] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:04:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:04:42] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:12:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:12:09] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:12:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:12:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:12:15] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /deletepost/14 [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 113, in deletepost
+    db.session.delete(todo)
+NameError: name 'todo' is not defined
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:12:19] "[35m[1mGET /deletepost/14 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:13:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:13:24] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:13:25] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:13:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:13:29] "[37mGET /home HTTP/1.1[0m" 200 -
+ERROR:app:Exception on /deletepost/14 [GET]
+Traceback (most recent call last):
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/views.py", line 115, in deletepost
+    return render_template('home.html', post=post)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/cserv1_a/soc_ug/fy18aol/BookBlog/app/templates/home.html", line 15, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/home/cserv1_a/soc_ug/fy18aol/flask/lib/python3.6/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:13:31] "[35m[1mGET /deletepost/14 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:29] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:34] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:38] "[32mGET /deletepost/13 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:38] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:49] "[32mGET /deletepost/12 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:49] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:52] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:54] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:16:57] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:08] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:08] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:09] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:10] "[37mGET /profile/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:16] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:18] "[37mGET /profile/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:26] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:31] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:35] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:40] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:17:52] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:02] "[37mGET /profile/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:03] "[37mGET /friends HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:04] "[37mGET /addfriend/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:05] "[37mGET /addfriend/alinomon HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:06] "[37mGET /addfriend/bob12345 HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:07] "[37mGET /delete/Josh HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:08] "[37mGET /delete/test HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:09] "[37mGET /delete/alinomon HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:09] "[37mGET /delete/bob12345 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:34] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:39] "[32mGET /deletepost/12 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 18:18:39] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:18] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:20] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:24] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:28] "[32mPOST /home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:28] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:29] "[32mGET /deletepost/12 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:29] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:35] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:41] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:35:42] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:36:40] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:36:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:36:42] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:37:02] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:37:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:37:08] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:41:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:41:49] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:41:49] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:41:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:41:54] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:41:54] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:42:13] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:46:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:46:31] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:46:32] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:46:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:46:35] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:46:35] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:47:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:47:19] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:47:20] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:47:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:47:23] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:47:23] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:48:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:48:16] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:48:17] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:48:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:48:20] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:48:20] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:48:51] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:50:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:50:14] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:50:15] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:50:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:50:18] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:50:18] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:50:19] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:52:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:52:09] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:52:10] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:52:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:52:13] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:52:13] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:52:22] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:30] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:31] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:34] "[37mPOST /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:37] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:37] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:38] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:50] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:53] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:55] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:53:56] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:54:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:54:12] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:54:13] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:54:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:54:17] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:54:17] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:54:18] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:02] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:03] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:06] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:06] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:09] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:14] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:26] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:39] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:55:39] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:29] "[37mGET /static/css/todo.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:30] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:34] "[37mGET /home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:34] "[37mGET /static/css/blog.css HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:35] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:57:37] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:58:02] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:58:14] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:58:15] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:58:26] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:58:27] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:58:28] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:58:29] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:59:15] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 19:59:51] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 20:00:08] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 20:00:22] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 20:00:23] "[37mGET /home HTTP/1.1[0m" 200 -
+DEBUG:root:Friends
+DEBUG:root:Friends
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 20:00:24] "[37mGET /friends HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 20:00:25] "[37mGET /profile/alex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2021 20:00:25] "[37mGET /home HTTP/1.1[0m" 200 -
