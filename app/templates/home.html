@@ -11,6 +11,9 @@
     <div style="position: relative; top:-5px; left: 235px;">
       <a href="{{ url_for('Friends') }}"><button type="button">Friends</button></a>
     </div>
+    <div style="position: relative; top:-5px; left: 235px;">
+      <a href="{{ url_for('LogIn') }}"><button type="button">Log Out</button></a>
+    </div>
     <form action="/home" method="POST">
       {{ form.hidden_tag() }}
         <fieldset style="position:relative; left:670px; width: 520px; border:thin solid #DADADA;" >
